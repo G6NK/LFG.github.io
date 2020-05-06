@@ -8197,7 +8197,7 @@ function save() {
 <button type="button/text" id="emote1" onclick="emote1()">oooo</button>
     <script>
     function emote1() {
-    var copyText = document.getElementById('emote1').value;
+    var copyText = document.getElementById('emote1')text.value;
     copyText.select();
     copyText.setSelectionRange(0, 99999);
     document.execCommand("copy");
