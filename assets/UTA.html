@@ -295,7 +295,7 @@ function fade(element) {
                 <font  color="red" width="bold" size="5">User Text Array!
                     <br>
 			</div>
-                    <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" id="UTAquote" cols="50" rows="5"></textarea>
+                    <textarea class="UTAquote" name="UTAquote" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" id="UTAquote" cols="50" rows="5"></textarea>
 
 
                     <br> Your selection preview will show here!
@@ -457,10 +457,10 @@ function fade(element) {
 		<script>
     function save() {
 
-        var SN = document.getElementById('SN').value
+        var SN = document.getElementById('UTAquote').value
         listNode = document.getElementById('list'),
             liNode = document.createElement("li"),
-            txtNode = document.createTextNode(SN);
+            txtNode = document.createTextNode(UTAquote);
         liNode.appendChild(txtNode);
         listNode.appendChild(liNode);
     }
