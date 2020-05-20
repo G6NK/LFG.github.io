@@ -313,7 +313,7 @@ function fade(element) {
                             var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
                             output.innerHTML = selectedtext
                         }
-                    } 
+                    }, false)
                 </script>
             </section>
             </button>
@@ -453,9 +453,9 @@ function fade(element) {
 
     <body class="Content" id="Content" name="Content">
 
-        <button class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()">Save Your Text</button>
+        <button class="SNbutton" name="SNbutton" id="SNbutton" onclick="saveLi()">Save Your Text</button>
 		<script>
-    function save() {
+    function saveLi() {
 
         var SN = document.getElementById('SN').value
         listNode = document.getElementById('list'),
@@ -464,7 +464,7 @@ function fade(element) {
         liNode.appendChild(txtNode);
         listNode.appendChild(liNode);
     }
-}
+}, false)
 </script>
         <br>
         <br>
@@ -474,7 +474,7 @@ function fade(element) {
         <font color="white" size="5">
             <ul>
                 <li>example</li>
-				<ul id="userlist">
+				<ul id="list">
 				
 				</ul>
             </ul>
