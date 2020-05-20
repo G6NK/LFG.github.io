@@ -1,18 +1,6 @@
 -----------------NEW UPDATE:---------------
 
-added various features and fonts 05/05/2020
-
-For people with previous versions you can  
-delete old version and download new version.
-
- We Require No Password Or Usernames to Use Our Document Collection.
- 
- This Collection Does Not Request Access to the Internet, Your System Registry, 
-Or Any Files Outside The File It is Provided in, Except Your Browser As A Means 
-To Render The HTML, CSS, And JavaScript Into A Usable Service When Used From The 
-Desktop.
-
- We do Not Request Data Or Have Any Analytics Processes.
+added various features and optimizations 05/20/2020
  
  We Will Never Charge You For Services.
  
@@ -76,13 +64,3 @@ ysomd+hom+hm::omy/mNo:yd+yNmdooo//://osssysssshmNydmdmddNmdmNNmmm:shyhhm/hsyoo+m
 
 # Lit-Font-Generator
 
-Web Based Font Generator That Does Not Require Internet Access
-
-
--DirectionS- 
-                                                                           
-                                                                  
-
-Simply place the LFG.github.io folder in your downloaded zip folder 
-onto your desktop.
-This will be updated often.
