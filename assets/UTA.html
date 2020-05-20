@@ -295,7 +295,7 @@ function fade(element) {
                 <font  color="red" width="bold" size="5">User Text Array!
                     <br>
 			</div>
-                    <textarea class="UTAquote" name="UTAquote" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" id="UTAquote" cols="50" rows="5"></textarea>
+                    <textarea id="SN" class="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!"  cols="50" rows="5"></textarea>
 
 
                     <br> Your selection preview will show here!
@@ -306,7 +306,7 @@ function fade(element) {
                 </font>
                 </font>
                 <script>
-                    var quotearea = document.getElementById('UTAquote')
+                    var quotearea = document.getElementById('SN')
                     var output = document.getElementById('UTAoutput')
                     quotearea.addEventListener('mouseup', function() {
                         if (this.selectionStart != this.selectionEnd) { // check the user has selected some text inside field
@@ -457,10 +457,10 @@ function fade(element) {
 		<script>
     function save() {
 
-        var SN = document.getElementById('UTAquote').value
+        var SN = document.getElementById('SN').value
         listNode = document.getElementById('list'),
             liNode = document.createElement("li"),
-            txtNode = document.createTextNode(UTAquote);
+            txtNode = document.createTextNode(SN);
         liNode.appendChild(txtNode);
         listNode.appendChild(liNode);
     }
