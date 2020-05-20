@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<HTML lang="en">
 
 <meta charset="UTF-8">
-
+<html style="background-color:black;width:100%;height:100%;position:absolute;z-index:-1;">
 <div>
 
 <head>
@@ -203,70 +202,7 @@
 <body>
 
     <body>
-        <style>
-            /* ---- reset ---- */
-            
-            body {
-                padding: 0px, 0px;
-                margin: 0px;
-                font: normal 75% Arial, Helvetica, sans-serif;
-                position: absolute;
-                size: cover;
-                z-index: 1;
-            }
-            
-            canvas {
-                padding: 0px, 0px;
-                margin: 0px;
-                display: auto;
-                vertical-align: bottom;
-                position: absolute;
-                z-index: 1;
-                block-size: auto;
-            }
-            /* ---- particles.js container ---- */
-            
-            #particles-js {
-                padding: 0px, 0px;
-                margin: 0px;
-                display: auto;
-                background-color: rgb(0, 0, 0);
-                position: fixed;
-                width: 100%;
-                height: 100%;
-                background-image: url("giphy.gif");
-                background-repeat: no-repeat;
-                background-size: 100%;
-                background-position: 50% 75%;
-                z-index: -2;
-            }
-        </style>
 
-        <body position="absolute" , z-index="3" padding="0px, 0px" margin="0px">
-
-            <!-- particles.js container -->
-            <div id="particles-js"></div>
-            <!-- particles.js lib online - https://github.com/VincentGarreau/particles.js -->
-            <script src="particles.js\particles.min.js"></script>
-            <!-- stats.js lib -->
-
-        </body>
-        <form>
-            <style>
-                .form {
-                    border: 1px solid black;
-                    text-align: center;
-                    outline: none;
-                    min-width: 320;
-                    max-width: 350px;
-                }
-                
-                span {
-                    display: inline-block;
-                }
-            </style>
-
-            </section>
 <div style="display:none;" class="animate-bottom2" id="main">
 
 
@@ -348,38 +284,10 @@ function fade(element) {
     <font font-size="10" hide="false" color="red">█▀▀ █▀▀ █▄░█ █▀▀ █▀█ ▄▀█ ▀█▀ █▀█ █▀█</font><br>
     <font font-size="10" hide="false" color="white">█▄█ ██▄ █░▀█ ██▄ █▀▄ █▀█ ░█░ █▄█ █▀▄</font>
 	<font color="red"><p>(Some Browsers may not support Certain Fonts Or Features)</p>
-    <br>
-            <section class="seccpyl">
-		    <title>User Text Array </title>
-			<div name="HB" id="HB" class="HB">
-                <font  color="red" width="bold" size="5">User Text Array!
-                    <br>
-			</div>
-                    <textarea id="SN" class="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!"  cols="50" rows="5"></textarea>
-
-
-                    <br> Your selection preview will show here!
-                    <br>
-                </font>
-                <font color="white" size="5">
-                    <div id="UTAoutput"></div>
-                </font>
-                </font>
-                <script>
-                    var quotearea = document.getElementById('SN')
-                    var output = document.getElementById('UTAoutput')
-                    quotearea.addEventListener('mouseup', function() {
-                        if (this.selectionStart != this.selectionEnd) { // check the user has selected some text inside field
-                            var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
-                            output.innerHTML = selectedtext
-                        }
-                    }, false)
-                </script>
-            </section>
-            </button>
-        </form>
-
-        <script>
+    </body>
+	
+	
+	        <script>
             particlesJS("particles-js", {
               "particles": {
                   "number": {
@@ -491,6 +399,40 @@ function fade(element) {
               "retina_detect": true
             });
         </script>
+	
+	
+	<br>
+            <section class="seccpyl">
+		    <title>User Text Array </title>
+			<div name="HB" id="HB" class="HB">
+                <font  color="red" width="bold" size="5">User Text Array!
+                    <br>
+			</div>
+                    <textarea id="SN" class="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!"  cols="50" rows="5"></textarea>
+
+
+                    <br> Your selection preview will show here!
+                    <br>
+                </font>
+                <font color="white" size="5">
+                    <div id="UTAoutput"></div>
+                </font>
+                </font>
+                <script>
+                    var quotearea = document.getElementById('SN')
+                    var output = document.getElementById('UTAoutput')
+                    quotearea.addEventListener('mouseup', function() {
+                        if (this.selectionStart != this.selectionEnd) { // check the user has selected some text inside field
+                            var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
+                            output.innerHTML = selectedtext
+                        }
+                    }, false)
+                </script>
+            </section>
+            </button>
+        </form>
+
+
     </body>
 
     <h1>
