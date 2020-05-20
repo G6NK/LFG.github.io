@@ -8142,7 +8142,7 @@ function sssOutput1() {
                 <font  color="red" width="bold" size="5">User Text Array!
                     <br>
 			</div>
-                    <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" id="UTAquote" cols="50" rows="5"></textarea>
+                    <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" cols="50" rows="5"></textarea>
 
 
                     <br> Your selection preview will show here!
@@ -8153,7 +8153,7 @@ function sssOutput1() {
                 </font>
                 </font>
                 <script>
-                    var quotearea = document.getElementById('UTAquote')
+                    var quotearea = document.getElementById('SN')
                     var output = document.getElementById('UTAoutput')
                     quotearea.addEventListener('mouseup', function() {
                         if (this.selectionStart != this.selectionEnd) { // check the user has selected some text inside field
@@ -8218,16 +8218,6 @@ function save() {
     listNode.appendChild(liNode);
 }
 </script>
-<button type="button/text" id="emote1" onclick="emote1()">oooo</button>
-    <script>
-    function emote1() {
-    var copyText = document.getElementById('emote1')text.value;
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    document.execCommand("copy");
-    return false;
-    }
-  </script>    
 </div>
 <div>
 </body>
