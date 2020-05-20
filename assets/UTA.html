@@ -239,17 +239,47 @@ function myFunction() {
 		Reset App
 		</button>
 	</div>
-	<div>
-		<button class="button"   background="transparent" font="color:white;"  border-color="red" onclick="UTAWnp()">
-			User Text Array (no Particle Animation)
-		</button>
+<div>
+<button id="oP1" onclick="fadeOut1(el)" style="text-decoration:none;" class="re bouncy" style="display:dynamic;position:absolute;z-index=4;">Particles Off</a>
+<button id="oP2"  onclick="fadeIn1(el)" style="text-decoration:none;" class="re bouncy" style="display:dynamic;position:absolute;z-index=4;">particles On</a>
 
-			<script>
-				function UTAWnp() {
-				window.open("UTANP.html","_self");
-				return false;
-				}
-			</script>
+
+
+<script>
+var el = document.getElementById("particles-js");
+
+function fadeOut1(el) {
+  var tick = function(){
+
+    el.style.opacity = el.style.opacity - 0.01;
+
+    if (el.style.opacity >= 0.01) {
+      setTimeout(tick, 1);
+    }
+  };
+
+  tick();
+
+}
+
+function fadeIn1(el) {
+var el = document.getElementById("particles-js");
+  var tick = function(){
+
+    el.style.opacity = +el.style.opacity + 0.01;
+
+    if (+el.style.opacity <= 0.99) {
+      setTimeout(tick, 1);
+    }
+  };
+
+  tick();
+
+  }
+
+
+  </script>
+</div>
 <script>
 function fade(element) {
     var op = 1;  // initial opacity
@@ -264,7 +294,7 @@ function fade(element) {
     }, 50);
 }
 </script>
-	</div>
+
             <section class="seccpyl">
 		    <title>User Text Array </title>
 			<div name="HB" id="HB" class="HB">
