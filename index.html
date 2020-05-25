@@ -15,7 +15,22 @@
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
+	}
+.font{
+	-webkit-animation: glow linear 1s infinite; 
+    animation: glow linear 1s infinite; } 
+@-webkit-keyframes glow { 
+    0% { text-shadow: 2px 2px red; }
+    50% { text-shadow: 2px 2px gray; }
+    100% { text-shadow: 2px 2px red; } 
 
+} 
+@keyframes glow { 
+    0% { text-shadow: 2px 2px red; }
+    50% { text-shadow: 2px 2px gray; }
+    100% { text-shadow: 2px 2px red; } 
+	}
+}
 </style>
 <head>
     <link href="assets/spop.css" rel="stylesheet">
@@ -77,7 +92,7 @@
 </head>
 <body onload="myFunction()" style="margin:0;"  class="animate-bottom">
 <div id="loader" ;></div>
-<font color="white">
+<font class="font1"  color="white">
 <div id="loader2" background-image="url("assets/icons/G6emblem");>Hello!</div>
 </font>
 </body>
@@ -317,18 +332,18 @@ function fade(element) {
 <body id="lfgascii" class="animate-bottom2">
 
     <br>
-    <font font-size="10" hide="false" color="red" ;>█░░ █ ▀█▀   █▀▀ █▀█ █▄░█ ▀█▀</font>
+    <font class="font1"   font-size="10" hide="false" color="red" ;>█░░ █ ▀█▀   █▀▀ █▀█ █▄░█ ▀█▀</font>
     <br>
-    <font font-size="10" hide="false" color="white">█▄▄ █ ░█░   █▀░ █▄█ █░▀█ ░█░</font><br>
+    <font class="font1"   font-size="10" hide="false" color="white">█▄▄ █ ░█░   █▀░ █▄█ █░▀█ ░█░</font><br>
     <br>
-    <font font-size="10" hide="false" color="red">█▀▀ █▀▀ █▄░█ █▀▀ █▀█ ▄▀█ ▀█▀ █▀█ █▀█</font><br>
-    <font font-size="10" hide="false" color="white">█▄█ ██▄ █░▀█ ██▄ █▀▄ █▀█ ░█░ █▄█ █▀▄</font>
-	<font color="red"><p>(Some Browsers may not support Certain Fonts Or Features)</p>
+    <font class="font1"   font-size="10" hide="false" color="red">█▀▀ █▀▀ █▄░█ █▀▀ █▀█ ▄▀█ ▀█▀ █▀█ █▀█</font><br>
+    <font class="font1"   font-size="10" hide="false" color="white">█▄█ ██▄ █░▀█ ██▄ █▀▄ █▀█ ░█░ █▄█ █▀▄</font>
+	<font class="font1"  color="red"><p>(Some Browsers may not support Certain Fonts Or Features)</p>
     <br>
 
 </body>
 
-<font color="red">------------------------------------------------------------------------------------</font>
+<font class="font1"  color="red">------------------------------------------------------------------------------------</font>
 <br>
 <div style="max-width:300;" name="divm" class="divm" id="divm" >
 <style>
@@ -353,12 +368,12 @@ border-color:red;
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=UL></a>
-            <h1 align="center">Add Under Line</h1>
+            <h1 class="font1"   align="center">Add Under Line</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span>
 			<textarea class="form" type="text"   name="ULoutputr" id="ULoutputr" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="Preview: a̲A̲b̲B̲c̲C̲d̲D̲" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                          autofocus="true"></textarea>
@@ -408,12 +423,12 @@ function ULoutput1() {
     </form>
 	<br>
 
-<font color="red" size="2" right="10px">
+<font class="font1"   color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"   color="white" size="5">
 
     <div id="ULoutputp"></div>
 
@@ -447,12 +462,12 @@ function ULoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=Gv1></a>
-            <h1  align="center">Glitch x1</h1>
+            <h1 class="font1"   align="center">Glitch x1</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"   color="red">
             <span>
 			<textarea class="form" type="text" max-width="100"  name="Gv1outputr" id="Gv1outputr" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="Preview: a̲A̲b̲B̲c̲C̲d̲D̲" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                          autofocus="true"></textarea>
@@ -502,12 +517,12 @@ function Gv1output1() {
     </form>
 </body>
 
-<font color="red" size="2" right="10px">
+<font class="font1"   color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="Gv1outputp"></div>
 
@@ -541,12 +556,12 @@ function Gv1output1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"   hide="false" color="red">
             <a id=IF></a>
-            <h1  align="center" id="varh">Italic Font</h1>
+            <h1 class="font1"    align="center" id="varh">Italic Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"   color="red">
             <span><textarea class="form" type="text" max-width="100"  name="IFoutputr" id="IFoutputr" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="𝘗𝘙𝘌𝘝𝘐𝘌𝘞: 𝘢𝘈𝘣𝘉𝘤𝘊𝘥𝘋" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -851,12 +866,12 @@ function Gv1output1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"   color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"   color="white" size="5">
 
     <div id="IFoutputp"></div>
 
@@ -892,12 +907,12 @@ function Gv1output1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"   hide="false" color="red">
             <a id=BF></a>
-            <h1 align="center"  id="BFh">Bold Font</h1>
+            <h1 class="font1"   align="center"  id="BFh">Bold Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"   color="red">
             <span><textarea class="form" type="text" max-width="100"  name="BOpR" id="BOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="𝐏𝐑𝐄𝐕𝐈𝐄𝐖: 𝐚𝐀𝐛𝐁𝐜𝐂𝐝𝐃" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -1202,12 +1217,12 @@ function Gv1output1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"   color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"   color="white" size="5">
 
     <div id="BOutputp"></div>
 
@@ -1244,12 +1259,12 @@ function Gv1output1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=BIOa></a>
-            <h1 align="center"  id="BIOh">Bold Italic</h1>
+            <h1 class="font1"  align="center"  id="BIOh">Bold Italic</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="BIOpR" id="BIOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="𝙋𝙍𝙀𝙑𝙄𝙀𝙒: 𝙖𝘼𝙗𝘽𝙘𝘾𝙙𝘿" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -1554,12 +1569,12 @@ function Gv1output1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="BIOutputp"></div>
 
@@ -1597,12 +1612,12 @@ function Gv1output1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=twf></a>
-            <h1  align="center">Type Writer Font</h1>
+            <h1 class="font1"   align="center">Type Writer Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="TWoutputr" id="TWoutputr" style="margin:0 1em; padding:0 1em; max-width:300px;" placeholder="𝙿𝚁𝙴𝚅𝙸𝙴𝚆: 𝚊𝙰𝚋𝙱𝚌𝙲𝚍𝙳" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                          autofocus="true"></textarea></span>
             <script>
@@ -2190,12 +2205,12 @@ function TWUoutput1() {
     </font>
     </button>
     </form>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your selection preview will show here!</P>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="TWoutputp"></div>
 
@@ -2232,17 +2247,17 @@ function TWUoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a>
                 <div>
-                    <h1  align="center">
+                    <h1 class="font1"   align="center">
                         Gothic Type Font
                     </h1>
         </font>
         </div>
         </a>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
 		<span><textarea class="form" type="text" max-width="100" name="GToutputr" id="GToutputr" style="margin:0 1em; padding:0 1em; max-width:300px;" placeholder="𝔓ℜ𝔈𝔙ℑ𝔈𝔚: 𝔞𝔄𝔟𝔅𝔠ℭ𝔡𝔇" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"autofocus="true"></textarea></span>
 
             <script>
@@ -2831,12 +2846,12 @@ function GTUoutput1() {
     </button>
     </form>
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your selection preview will show here!</P>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="GToutputp"></div>
 
@@ -2873,12 +2888,12 @@ function GTUoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
 
 
             <a>
                 <div>
-                    <h1  align="center">
+                    <h1 class="font1"   align="center">
                         Gothic Bold Font
                     </h1>
         </font>
@@ -2887,7 +2902,7 @@ function GTUoutput1() {
         </font>
         <p></p>
 
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100" name="GTBoutputr" id="GTBoutputr" style="margin:0 1em; padding:0 1em; max-width:300px;" placeholder="𝕻𝕽𝕰𝖁𝕴𝕰𝖂:𝖆𝕬𝖇𝕭𝖈𝕮𝖉𝕯" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';" autofocus="true"></textarea></span>
             <script>
                 $('textarea').css('width', ((textarea.getAttribute('placeholder').length + 1) * 8) + 'px');
@@ -3473,12 +3488,12 @@ function GTBUoutput1() {
     </font>
     </button>
     </form>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your selection preview will show here!</P>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="GTBoutputp"></div>
 
@@ -3516,12 +3531,12 @@ function GTBUoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=sf></a>
-            <h1  align="center">Script Font</h1>
+            <h1 class="font1"   align="center">Script Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea  class="form" type="text" max-width="100" name="SFoutputr" id="SFoutputr" style="margin:0 1em; padding:0 1em; max-width:300px;" placeholder="𝒫𝑅𝐸𝒱𝐼𝐸𝒲: 𝒶𝒜𝒷𝐵𝒸𝒞𝒹𝒟" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                           autofocus="true"></textarea></span>
             <script>
@@ -4109,12 +4124,12 @@ function SFUoutput1() {
     </font>
     </button>
     </form>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your selection preview will show here!</P>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="SFoutputp"></div>
 
@@ -4150,12 +4165,12 @@ function SFUoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=bsf></a>
-            <h1  align="center">Bold Script Font</h1>
+            <h1 class="font1"   align="center">Bold Script Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="BSFoutputr" id="BSFoutputr" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="𝓟𝓡𝓔𝓥𝓘𝓔𝓦: 𝓪𝓐𝓫𝓑𝓬𝓒𝓭𝓓" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                          autofocus="true"></textarea></span>
             <script>
@@ -4743,12 +4758,12 @@ function BSFUoutput1() {
     </font>
     </button>
     </form>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your selection preview will show here!</P>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="BSFoutputp"></div>
 
@@ -4784,12 +4799,12 @@ function BSFUoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=EF></a>
-            <h1  align="center">Engraved Font</h1>
+            <h1 class="font1"   align="center">Engraved Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="EFoutputr" id="EFoutputr" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="ℙℝ𝔼𝕍𝕀𝔼𝕎: 𝕒𝔸𝕓𝔹𝕔ℂ𝕕𝔻" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                          autofocus="true"></textarea></span>
             <script>
@@ -5088,12 +5103,12 @@ function EFoutput1() {
     </form>
 </body>
 <body>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="EFoutputp"></div>
 
@@ -5127,12 +5142,12 @@ function EFoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=SC></a>
-            <h1 align="center"  id="SCh">Small Caps</h1>
+            <h1 class="font1"  align="center"  id="SCh">Small Caps</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="scOpR" id="scOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="ᴘʀᴇᴠɪᴇᴡ: ᴀᴀʙʙᴄᴄᴅᴅ" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -5432,12 +5447,12 @@ function EFoutput1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="scOutputp"></div>
 
@@ -5473,12 +5488,12 @@ function EFoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=SS></a>
-            <h1  align="center" id="SSh">Small Caps v2</h1>
+            <h1 class="font1"   align="center" id="SSh">Small Caps v2</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="ssOpR" id="ssOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="🇵​🇷​🇪​🇻​🇮​🇪​🇼​: 🇦​🇦​🇧​🇧​🇨​🇨​🇩​🇩​" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -5778,12 +5793,12 @@ function EFoutput1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="ssOutputp"></div>
 
@@ -5819,12 +5834,12 @@ function EFoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=SS2F></a>
-            <h1 align="center"  id="SS2h">Super Script Font</h1>
+            <h1 class="font1"  align="center"  id="SS2h">Super Script Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="ss2OpR" id="ss2OpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="VARIABLE: aAbBcCdD" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -6124,12 +6139,12 @@ function EFoutput1() {
 </body>
 
 <body>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="ss2Outputp"></div>
 
@@ -6165,12 +6180,12 @@ function EFoutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=SSSF></a>
-            <h1 align="center"  id="SSSH">Super-Sub script</h1>
+            <h1 class="font1"  align="center"  id="SSSH">Super-Sub script</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="sssOpR" id="sssOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="VARIABLE: aAbBcCdD" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                          autofocus="true"></textarea></span>
             <script>
@@ -6580,12 +6595,12 @@ function sssOutput1() {
 </body>
 
 </body>
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="sssOutputp"></div>
 
@@ -6621,12 +6636,12 @@ function sssOutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=tfF></a>
-            <h1 align="center"  id="TFh">Thin Font</h1>
+            <h1 class="font1"  align="center"  id="TFh">Thin Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="tfOpR" id="tfOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="ＰＲＥＶＩＥＷ: ａＡｂＢｃＣｄＤ" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -6931,12 +6946,12 @@ function sssOutput1() {
 	</body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <br><p>Your Generated Text will Preview Here!</p>
 					<sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="tfOutputp"></div>
 
@@ -6972,12 +6987,12 @@ function sssOutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=LSF></a>
-            <h1 align="center"  id="LSh">Heart Font</h1>
+            <h1 class="font1"  align="center"  id="LSh">Heart Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="lsOpR" id="lsOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="P♥R♥E♥V♥I♥E♥W♥: a♥A♥b♥B♥c♥C♥d♥D♥" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -7282,12 +7297,12 @@ function sssOutput1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="lsOutputp"></div>
 
@@ -7323,12 +7338,12 @@ function sssOutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=HFF></a>
-            <h1 align="center"  id="HFh">Hacker Font</h1>
+            <h1 class="font1"  align="center"  id="HFh">Hacker Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="hfOpR" id="hfOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="PR3V!3W: 4488((dD" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -7633,12 +7648,12 @@ function sssOutput1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="hfOutputp"></div>
 
@@ -7674,12 +7689,12 @@ function sssOutput1() {
                 display: inline-block;
             }
         </style>
-        <font hide="false" color="red">
+        <font class="font1"  hide="false" color="red">
             <a id=UDF></a>
-            <h1 align="center"  id="UDH">Upside-Down Font</h1>
+            <h1 class="font1"  align="center"  id="UDH">Upside-Down Font</h1>
         </font>
         <br>
-        <font color="red">
+        <font class="font1"  color="red">
             <span><textarea class="form" type="text" max-width="100"  name="udOpR" id="udOpR" style="margin:0 1em; padding:0 1em; max-width:300px; " placeholder="ԀɹƎΛIƎM: ɐ∀bbɔƆdd" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                              autofocus="true"></textarea></span>
             <script>
@@ -7984,12 +7999,12 @@ function sssOutput1() {
 </body>
 
 
-<font color="red" size="2" right="10px">
+<font class="font1"  color="red" size="2" right="10px">
                     <p>Your Generated Text will Preview Here!</p>
 <sub>(some characters may not show but it will work!)</sub>
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
 
     <div id="udOutputp"></div>
 
@@ -8139,7 +8154,7 @@ function sssOutput1() {
 
             <section class="seccpyl">
 			<div name="HB" id="HB" class="HB">
-                <font  color="red" width="bold" size="5">User Text Array!
+                <font class="font1"   color="red" width="bold" size="5">User Text Array!
                     <br>
 			</div>
                     <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" cols="50" rows="5"></textarea>
@@ -8148,7 +8163,7 @@ function sssOutput1() {
                     <br> Your selection preview will show here!
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font class="font1"  color="white" size="5">
                     <div id="UTAoutput"></div>
                 </font>
                 </font>
@@ -8177,9 +8192,9 @@ function sssOutput1() {
 		
     </style>
 	<div name="HB" id="HB" class="HB">
-<h1>
+<h1 class="font1" >
 
-        <font color="red" text-align="center" width="bold" size="5">Text Saver</font>
+        <font class="font1"  color="red" text-align="center" width="bold" size="5">Text Saver</font>
 		
 
 </h1>
@@ -8197,7 +8212,7 @@ function sssOutput1() {
 </body>
 
 <body class="TextList" name="TextList" id=TextList max-width="420">
-    <font color="white" size="5">
+    <font class="font1"  color="white" size="5">
         <ul id="list">
             <li>example</li>
         </ul>
@@ -8236,7 +8251,7 @@ function save() {
 <br>
 <br>
     <h3>
-        <font color="white" size="5"><b><i>𝕳𝖔𝖕𝖊 𝕿𝖍𝖎𝖘 𝕳𝖊𝖑𝖕𝖘!</i></b></font>
+        <font class="font1"  color="white" size="5"><b><i>𝕳𝖔𝖕𝖊 𝕿𝖍𝖎𝖘 𝕳𝖊𝖑𝖕𝖘!</i></b></font>
     </h3>
 </body>
  
@@ -8248,7 +8263,7 @@ function save() {
 
     <body position="absolute" z-index="9999">
         <div>
-            <font color="red" font-size="8px" position="right">
+            <font class="font1"  color="red" font-size="8px" position="right">
                 Copyright &copy; G6NK Production 01/01/2020
             </font>
         </div>
