@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<title>Lit Font Generator</title>
-<div >
+<div>
 <meta charset="UTF-8">
         <font id="font1"   hide="false" color="red">
 <html lang="en"  style="background-color:black;min-width:420;max-width:420px;height:500px; align="center">
@@ -192,6 +191,8 @@
  
 font {
 
+
+  
     -moz-animation: glow linear 1s infinite;
   -webkit-animation: glow linear 1s infinite;
   animation: glow linear 1s infinite;
@@ -318,19 +319,18 @@ font {
  
 </style>
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="assets/icon.png">
-
+	
     <link href="assets/spop.css" rel="stylesheet">
 	<link rel="newWindow" url="assets/UTA.html">
 	<link rel="newWindow1" url="assets/SaveTexts.html">
-	<meta name="google-site-verification" content="OzixVQOArknKhkUc4jeoGGzdz90puAz2M6UfKOmfNpM" />
-	<meta name="description" content="Create Cool Fonts and Font Arrangements. Pop Out Windows For Various Tools For Ease of Access."/>
-    <meta name="keywords" content="Font, Fonts, Lit, Cool, Cool Fonts, Lit Fonts, Lit Font Generator, G6NK, g6nk, gang, font gang, create, creative"/>
-    <meta name="author" content="G6NK"/>
-    <meta name="copyright" content="G6NK Productions"/>
-	<meta name="viewport" content="width=device-width" charset="UTF-8"/>
-		<script type="text/javascript" src="assets/jquery.min.js"></script>
-   		 <script type="text/javascript" src="assets/jquery.js"></script>
+	<meta name="description" content="Create Cool Fonts and Font Arrangements. Pop Out Windows For Various Tools For Ease of Access.">
+    <meta name="keywords" content="Font, Fonts, Lit, Cool, Cool Fonts, Lit Fonts, Lit Font Generator, G6NK, g6nk, gang, font gang, create, creative">
+    <meta name="author" content="G6NK">
+    <meta name="copyright" content="G6NK Productions">
+	<meta name="viewport" content="width=device-width" charset="UTF-8"></meta>
+   		 <script type="text/javascript" src="assets/particles.js"></script>
+    		<script type="text/javascript" src="assets/particles.min.js"></script>
+									    
     <body>
 
         <style>
@@ -364,37 +364,27 @@ font {
                 position: fixed;
                 width: 100%;
                 height: 100%;
+                background-image: url(assets/giphy.gif);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: 50% 75%;
                 z-index: -2;
-          }
-		video#bgVideo {
-		 size: 100%;
-		position: 50% 75%;
-		 z-index: -3; // Put the video behind all other elements
-		}
-		@media only screen and (max-width: 768px) {
-		 video {
-		   display:none;
-		 }
-	</style>
+            }
+        </style>
 
         <body position="absolute" , z-index="3" padding="0px, 0px" margin="0px">
 
             <!-- particles.js container -->
-            <div id="particles-js">
-		 <video id="bgVideo" autoplay="1" loop="1">
-     			 <!-- Video is embedded in the WEBM format -->
-     			<source src="assets/g6nk.mpeg" type="video/mpeg">
-   		 </video>
-	    </div>
+            <div id="particles-js"></div>
             <!-- particles.js lib online - https://github.com/VincentGarreau/particles.js -->
-            <script src="assets\particles.min.js"></script>
+            <script src="assets/particles.min.js"></script>
             <!-- stats.js lib -->
 
         </body>
 </head>
 <body onload="myFunction()" style="margin:0;"  class="animate-bottom">
 <div id="loader" ;></div>
-<font id="font1"   text-align="center" color="white">
+<font id="font1"   color="white">
 <div id="loader2" background-image="url("assets/icons/G6emblem");>Hello!</div>
 </font>
 </body>
@@ -597,35 +587,37 @@ var el = document.getElementById("particles-js");
 
 
   </script>
-</div>
-	<div>
-	    <div>    
-		<button   class="button"  onclick="EW()">
+
+
+		<div>    
+		
+		<button   class="button"  onclick="EW()"><font id="font1"   hide="false" color="red">
 			LF Generator Pop-Out
-		</a>
-			</font>
+		</font></button>
+			
 
-
+			
 			<script>
 				function EW() {
 					var myWindow1 = window.open("index.html","MsgWindow2","width=420,height=500%","alwaysOnTop=100","setAlwaysOnTop=true");
 				}
 
-            </script>
-	</div>
+			</script>
 
-	<div>
-	<font id="font1"   hide="false" color="red">
-		<button class="button"   onclick="UTAW()">
+		</div>
+
+		<div>
+		
+		<button class="button"   onclick="UTAW()"><font id="font1"   hide="false" color="red">
 			User Text Array Pop-Out
-		</a>
-</font>
+		</font></button>
+
 			<script>
 				function UTAW() {
 					var myWindow3 = window.open("assets/UTA.html","MsgWindow3","width=420,height=500%","alwaysOnTop=100","setAlwaysOnTop=true");
 				}
 			</script>
-			
+		</div>	
 	</div>
 
 <script>
@@ -8278,15 +8270,6 @@ function sssOutput1() {
 </div>
 <br>
 <br>
-
-			<div name="HB" id="HB" class="HB">
-                <font id="font1"    color="red" width="bold" size="5">Emoticons!
-                    <br>
-			</div>
-
-
-<br>
-<br>
 <body>
 
             <section class="seccpyl">
@@ -8302,10 +8285,6 @@ function sssOutput1() {
                 </font>
                 <font id="font1"   color="white" size="5">
                     <div id="UTAoutput"></div>
-				<font id="font1"   color="red" size="3">
-					 <br>You can save with the button below and
-					<br>Simply double click the listed result to copy!
-					</font>
                 </font>
                 </font>
                 <script>
@@ -8316,7 +8295,7 @@ function sssOutput1() {
                             var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
                             output.innerHTML = selectedtext
                         }
-                    }, false)
+                    });
                 </script>
             </section>
 
@@ -8330,10 +8309,15 @@ function sssOutput1() {
             border-style: solid;
             border-color: red;
         }
-		a.utVar{
-		color: #ffffff
-		}
+		
     </style>
+	<div name="HB" id="HB" class="HB">
+<h1 id="font1"  >
+
+        <font id="font1"   color="red" text-align="center" width="bold" size="5">Text Saver</font>
+		
+
+</h1>
 </div>
 </body>
 
@@ -8344,14 +8328,14 @@ function sssOutput1() {
 
     <br>
     <br>
-    <button class="button"   background="transparent" font="color:white;"  border-color="red" class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()"><font>Save</font></button>
+    <button class="button"   background="transparent" font="color:white;"  border-color="red" class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()">Save</button>
 </body>
 
 <body class="TextList" name="TextList" id=TextList max-width="420">
     <font id="font1"   color="white" size="5">
-       <ul id="list" style="width:300px;height:400px;">
+        <ul id="list">
             <li>example</li>
-		</ul>
+        </ul>
     </font>
 
 </body>
@@ -8361,38 +8345,14 @@ function sssOutput1() {
 <script>
 function save() {
 
-    var SNV = document.getElementById('SN').value
-	 SN = document.getElementById('SN'),
-        listNode = document.getElementById('list'),
-		liNode = document.createElement("li"),
-		aNode = document.createElement("a"),
-        txtNode = document.createTextNode(SNV),
-		divNode = document.createElement("div"),
-		iNode = document.createElement("input");
-	iNode.setAttribute("value", SNV);
-	iNode.setAttribute("style", "position: absolute; z-index: -9999; opacity: 0;")
-	iNode.setAttribute("class", "linkToCopy");
-    listNode.appendChild(divNode);
-	divNode.appendChild(liNode)
-	liNode.appendChild(iNode);	
-	aNode.appendChild(txtNode);
-	aNode.setAttribute("value", SNV);
-	aNode.setAttribute("class", "utVar");
-	aNode.setAttribute("href", "https://g6nk.pro");
-	aNode.setAttribute("onclick", "javascript:cpyUT(); return false;");
-	liNode.appendChild(aNode);
-
+    var SN = document.getElementById('SN').value
+    listNode = document.getElementById('list'),
+        liNode = document.createElement("li"),
+        txtNode = document.createTextNode(SN);
+    liNode.appendChild(txtNode);
+    listNode.appendChild(liNode);
 }
 </script>
-<script>
-	cpyUT = function(){
-  $('a.utVar').click(function() {
-    $(this).siblings('input.linkToCopy').select();
-     document.execCommand("copy");
-  });
-  }
-</script>
-
 </div>
 <div>
 </body>
@@ -8423,7 +8383,7 @@ function save() {
 
     <body position="absolute" z-index="9999">
         <div>
-            <font id="font1"   color="red" font-size="8px" >
+            <font id="font1"   color="red" font-size="8px" position="right">
                 Copyright &copy; G6NK Production 01/01/2020
             </font>
         </div>
@@ -8439,10 +8399,10 @@ function save() {
 </div>
 
 
-	    <script type="text/javascript " src="assets/jquery.min.js"></script>
-   		<script type="text/javascript " src="assets/Jquery/jquery.js"></script>
-   		<script type="text/javascript " src="assets/Jquery/clipboard.min.js"></script>
-   		<script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
-   		<script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></script>
-		<script type="text/javascript " src="assets/spop.js "></script>
+	         <script type="text/javascript " src="assets/jquery.min.js"></script>
+   		 <script type="text/javascript " src="assets/Jquery/jquery.js"></script>
+   		 <script type="text/javascript " src="assets/Jquery/clipboard.min.js"></script>
+   		 <script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
+   		 <script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></script>
+		 <script type="text/javascript " src="assets/spop.js"></script>
 </html>
