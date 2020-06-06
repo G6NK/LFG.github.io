@@ -1,20 +1,337 @@
 <!DOCTYPE html>
-
+<title>User Text Array</title>
+<div >
 <meta charset="UTF-8">
-<html style="background-color:black;width:100%;height:100%;position:absolute;z-index:-1;">
-<div>
+        <font id="font1"   hide="false" color="red">
+<html lang="en"  style="background-color:black;min-width:420;max-width:420px;height:500px; align="center">
+<style>
+ .button {
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  color: transparent 20%;
+  border: 2px solid #ff0000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+	}
+	
+	
+	
+.button {
 
+  background: linear-gradient(
+
+    45deg,
+    #000 10%,
+    #500000 20%,
+    #c00000 30%,
+    #f00000 40%,
+    #ff0000 50%,
+    #f00000 60%,
+    #c00000 70%,
+    #500000 80%,
+    #000 90%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: black;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+  -webkit-text-fill-color: black;
+    -moz-text-fill-color: black;
+  -webkit-text-stroke: calc(0px + 3px) transparent;
+  -moz-text-stroke: calc(0px + 3px) transparent;
+  
+    -moz-animation: glow linear 1s infinite;
+  -webkit-animation: glow linear 1s infinite;
+  animation: glow linear 1s infinite;
+  -moz-animation: shine 1s linear infinite;
+  -webkit-animation: shine 1s linear infinite;
+  animation: shine 1s linear infinite;
+
+
+}
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow: 0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+}
+
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+  
+  @keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+  
+  
+      @-moz-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+    @-webkit-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+ 
+font {
+
+    -moz-animation: glow linear 1s infinite;
+  -webkit-animation: glow linear 1s infinite;
+  animation: glow linear 1s infinite;
+
+}
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow: 0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+}
+
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+  
+  @keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+ 
+ 
+ 
+ 
+</style>
 <head>
-    <link href="spop.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width", initial-scale="1", charset="UTF-8">
-    <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="Jquery/clipboard.min.js"></script>
-    <script type="text/javascript" src="Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="particles.min.js"></script>
-	<script type="text/javascript" src="spop.js"></script>
-		<div >
+<link rel="shortcut icon" type="image/x-icon" href="icon.png">
+
+    <link href="assets/spop.css" rel="stylesheet">
+	<link rel="newWindow" url="UTA.html">
+	<meta name="description" content="Create Cool Fonts and Font Arrangements. Pop Out Windows For Various Tools For Ease of Access.">
+    <meta name="keywords" content="Font, Fonts, Lit, Cool, Cool Fonts, Lit Fonts, Lit Font Generator, G6NK, g6nk, gang, font gang, create, creative">
+    <meta name="author" content="G6NK">
+    <meta name="copyright" content="G6NK Productions">
+	<meta name="viewport" content="width=device-width" charset="UTF-8">
+		<script type="text/javascript" src="jquery.min.js"></script>
+   		 <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="particles.min.js"></script>
+    <body>
+
         <style>
             /* ---- reset ---- */
             
@@ -37,8 +354,7 @@
                 block-size: auto;
             }
             /* ---- particles.js container ---- */
-            </style>
-		<style >	
+            
             #particles-js {
                 padding: 0px, 0px;
                 margin: 0px;
@@ -47,7 +363,7 @@
                 position: fixed;
                 width: 100%;
                 height: 100%;
-                background-image: url(assets/giphy.gif);
+                background-image: url(giphy.gif);
                 background-repeat: no-repeat;
                 background-size: 100%;
                 background-position: 50% 75%;
@@ -55,21 +371,19 @@
             }
         </style>
 
-        <body  position="absolute"  z-index="3" padding="0px, 0px" margin="0px">
+        <body position="absolute" , z-index="3" padding="0px, 0px" margin="0px">
 
             <!-- particles.js container -->
             <div id="particles-js"></div>
-            <!-- particles.js lib online - https://github.com/VincentGarreau/particles.js -->
-            <script id="PJS3" src="particles.js\particles.min.js"></script>
-            <!-- stats.js lib -->
+
+
 
         </body>
-		</div>	
 </head>
 <body onload="myFunction()" style="margin:0;"  class="animate-bottom">
 <div id="loader"></div>
-<font color="white">
-<div id="loader2">Hello!</div>
+<font id="font1"   text-align="center" color="white">
+<div id="loader2" background-image="url("assets/icons/G6emblem");>Hello!</div>
 </font>
 </body>
 <div>
@@ -215,14 +529,23 @@
 
 <body>
 	<div>
+	<div>
+	<font id="font1"   hide="false" color="red">
 		<button class="button" onclick="location.reload(true)">
 		Reset App
-		</button>
+		</a>
+		</font>
 	</div>
+	<div>
+	<font id="font1"   hide="false" color="red">
+<button class="button" id="oP1" onclick="fadeOut1(el)">Particles Off</a>
+</font>
+</div>
 <div>
-<button id="oP1" onclick="fadeOut1(el)" style="text-decoration:none;" class="re bouncy" style="display:dynamic;position:absolute;z-index=4;">Particles Off</a>
-<button id="oP2"  onclick="fadeIn1(el)" style="text-decoration:none;" class="re bouncy" style="display:dynamic;position:absolute;z-index=4;">particles On</a>
-
+<font id="font1"   hide="false" color="red">
+<button class="button" id="oP2"  onclick="fadeIn1(el)">particles On</a>
+</font>
+</div>
 
 
 <script>
@@ -260,6 +583,22 @@ var el = document.getElementById("particles-js");
 
   </script>
 </div>
+	<div>
+	    <div>    
+		<button   class="button"  onclick="EW()">
+			LF Generator Pop-Out
+		</a>
+			</font>
+
+
+			<script>
+				function EW() {
+					var myWindow1 = window.open("../index.html","MsgWindow2","width=420,height=500%","alwaysOnTop=100","setAlwaysOnTop=true");
+				}
+
+            </script>
+	</div>
+
 <script>
 function fade(element) {
     var op = 1;  // initial opacity
@@ -269,11 +608,13 @@ function fade(element) {
             element.style.display = 'none';
         }
         element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 +")";
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.1;
     }, 50);
 }
 </script>
+
+</body>
 <body id="lfgascii" class="animate-bottom2">
 
     <br>
@@ -281,7 +622,8 @@ function fade(element) {
     <br>
     <font font-size="10" hide="false" color="white">█▄▄ █ ░█░   █▀░ █▄█ █░▀█ ░█░</font><br>
     <br>
-    <font font-size="10" hide="false" color="red">█▀▀ █▀▀ █▄░█ █▀▀ █▀█ ▄▀█ ▀█▀ █▀█ █▀█</font><br>
+    <font font-size="10" hide="false" color="red">█▀▀ █▀▀ █▄░█ █▀▀ █▀█ ▄▀█ ▀█▀ █▀█ █▀█</font>
+	<br>
     <font font-size="10" hide="false" color="white">█▄█ ██▄ █░▀█ ██▄ █▀▄ █▀█ ░█░ █▄█ █▀▄</font>
 	<font color="red"><p>(Some Browsers may not support Certain Fonts Or Features)</p>
     </body>
@@ -400,8 +742,6 @@ function fade(element) {
             });
         </script>
 	
-	
-	<br>
             <section class="seccpyl">
 			<div name="HB" id="HB" class="HB">
                 <font id="font1"    color="red" width="bold" size="5">User Text Array!
@@ -447,8 +787,8 @@ function fade(element) {
 		color: #ffffff
 		}
     </style>
-</div>
-</body>
+
+
 
 <body position="absolute" z-index="2">
 
@@ -466,7 +806,7 @@ function fade(element) {
             <li>example</li>
 		</ul>
     </font>
-
+</body>
 </body>
 
 </body>
@@ -508,4 +848,43 @@ function save() {
 
 </div>
 </body>
+<div  class="animate-bottom">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h3>
+        <font id="font1"   color="white" size="5"><b><i>𝕳𝖔𝖕𝖊 𝕿𝖍𝖎𝖘 𝕳𝖊𝖑𝖕𝖘!</i></b></font>
+    </h3>
+</body>
+ 
+
+<br>
+<br>
+<footer position="absolute" z-index="9998" width="100%" height="10%" border-width="1%" background-color="#000000" opacity="100%">
+
+
+    <body position="absolute" z-index="9999">
+        <div>
+            <font id="font1"   color="red" font-size="8px" >
+                Copyright &copy; G6NK Production 01/01/2020
+            </font>
+        </div>
+</body>
+</footer>
+</div>
+</div>
+
+	   	<script type="text/javascript " src="jquery.min.js"></script>
+   		<script type="text/javascript " src="Jquery/jquery.js"></script>
+   		<script type="text/javascript " src="Jquery/clipboard.min.js"></script>
+   		<script type="text/javascript " src="Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
+		<script type="text/javascript " src="Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></script>
+
 </html>
