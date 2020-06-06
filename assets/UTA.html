@@ -403,19 +403,22 @@ function fade(element) {
 	
 	<br>
             <section class="seccpyl">
-		    <title>User Text Array </title>
 			<div name="HB" id="HB" class="HB">
-                <font  color="red" width="bold" size="5">User Text Array!
+                <font id="font1"    color="red" width="bold" size="5">User Text Array!
                     <br>
 			</div>
-                    <textarea id="SN" class="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!"  cols="50" rows="5"></textarea>
+                    <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" cols="50" rows="5"></textarea>
 
 
                     <br> Your selection preview will show here!
                     <br>
                 </font>
-                <font color="white" size="5">
+                <font id="font1"   color="white" size="5">
                     <div id="UTAoutput"></div>
+				<font id="font1"   color="red" size="3">
+					 <br>You can save with the button below and
+					<br>Simply double click the listed result to copy!
+					</font>
                 </font>
                 </font>
                 <script>
@@ -429,63 +432,80 @@ function fade(element) {
                     }, false)
                 </script>
             </section>
-            </button>
-        </form>
 
+        
 
-    </body>
-
-    <h1>
-        <div name="HB" id="HB" class="HB">
-            <font color="red" width="bold" size="5">Text Saver</font>
-        </div>
-        <style>
-            .HB {
-                width: 420px;
-                text-align: center;
-                border-width: 2px;
-                border-style: solid;
-                border-color: red;
-            }
-        </style>
-    </h1>
+    <style>
+        .HB {
+            width: 420px;
+            text-align: left;
+            border-width: 2px;
+            border-style: solid;
+            border-color: red;
+        }
+		a.utVar{
+		color: #ffffff
+		}
+    </style>
+</div>
 </body>
 
 <body position="absolute" z-index="2">
 
-    <body class="Content" id="Content" name="Content">
+<body class="Content" id="Content" name="Content" max-width="420">
 
-        <button class="SNbutton" name="SNbutton" id="SNbutton" onclick="saveLi()">Save Your Text</button>
-		<script>
-    function saveLi() {
 
-        var SN = document.getElementById('SN').value
+    <br>
+    <br>
+    <button class="button"   background="transparent" font="color:white;"  border-color="red" class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()"><font>Save</font></button>
+</body>
+
+<body class="TextList" name="TextList" id=TextList max-width="420">
+    <font id="font1"   color="white" size="5">
+       <ul id="list" style="width:300px;height:400px;">
+            <li>example</li>
+		</ul>
+    </font>
+
+</body>
+
+</body>
+
+<script>
+function save() {
+
+    var SNV = document.getElementById('SN').value
+	 SN = document.getElementById('SN'),
         listNode = document.getElementById('list'),
-            liNode = document.createElement("li"),
-            txtNode = document.createTextNode(SN);
-        liNode.appendChild(txtNode);
-        listNode.appendChild(liNode);
-    }
+		liNode = document.createElement("li"),
+		aNode = document.createElement("a"),
+        txtNode = document.createTextNode(SNV),
+		divNode = document.createElement("div"),
+		iNode = document.createElement("input");
+	iNode.setAttribute("value", SNV);
+	iNode.setAttribute("style", "position: absolute; z-index: -9999; opacity: 0;")
+	iNode.setAttribute("class", "linkToCopy");
+    listNode.appendChild(divNode);
+	divNode.appendChild(liNode)
+	liNode.appendChild(iNode);	
+	aNode.appendChild(txtNode);
+	aNode.setAttribute("value", SNV);
+	aNode.setAttribute("class", "utVar");
+	aNode.setAttribute("href", "https://g6nk.pro");
+	aNode.setAttribute("onclick", "javascript:cpyUT(); return false;");
+	liNode.appendChild(aNode);
+
+}
 </script>
-        <br>
-        <br>
-        
-    </body>
-    <body class="TextList" name="TextList" id=TextList>
-        <font color="white" size="5">
-            <ul id="list">
-                <li>example</li>
-				
+<script>
+	cpyUT = function(){
+  $('a.utVar').click(function() {
+    $(this).siblings('input.linkToCopy').select();
+     document.execCommand("copy");
+  });
+  }
+</script>
 
-            </ul>
-        </font>
-
-    </body>
-
-</body>
-
-
-</body>
 </div>
 </body>
 </html>
