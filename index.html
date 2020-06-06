@@ -8267,7 +8267,7 @@ function sssOutput1() {
 
 </body>
 
-</div>
+
 <br>
 <br>
 <body>
@@ -8333,8 +8333,7 @@ function sssOutput1() {
 <body class="TextList" name="TextList" id=TextList max-width="420">
     <font id="font1"   color="white" size="5">
        <ul id="list" style="width:300px;height:400px;">
-            <li><a class="" href="">this link</a></li>
-			
+            <li>example</li>
 		</ul>
     </font>
 
@@ -8347,7 +8346,7 @@ function save() {
 
     var SNV = document.getElementById('SN').value
 	 SN = document.getElementById('SN'),
-       		istNode = document.getElementById('list'),
+        listNode = document.getElementById('list'),
 		liNode = document.createElement("li"),
 		aNode = document.createElement("a"),
         txtNode = document.createTextNode(SNV),
@@ -8360,7 +8359,7 @@ function save() {
 	divNode.appendChild(liNode)
 	liNode.appendChild(iNode);	
 	aNode.appendChild(txtNode);
-	aNode.utesetAttrib("value", SNV);
+	aNode.setAttribute("value", SNV);
 	aNode.setAttribute("class", "utVar");
 	aNode.setAttribute("href", "https://g6nk.pro");
 	aNode.setAttribute("onclick", "javascript:cpyUT(); return false;");
@@ -8407,7 +8406,7 @@ function save() {
 
     <body position="absolute" z-index="9999">
         <div>
-            <font id="font1"   color="red" font-size="8px" position="right">
+            <font id="font1"   color="red" font-size="8px" >
                 Copyright &copy; G6NK Production 01/01/2020
             </font>
         </div>
@@ -8423,10 +8422,11 @@ function save() {
 </div>
 
 
-	         <script type="text/javascript " src="assets/jquery.min.js"></script>
-   		 <script type="text/javascript " src="assets/Jquery/jquery.js"></script>
-   		 <script type="text/javascript " src="assets/Jquery/clipboard.min.js"></script>
-   		 <script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
-   		 <script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></script>
-		 <script type="text/javascript " src="assets/spop.js"></script>
+	    <script type="text/javascript " src="assets/jquery.min.js"></script>
+   		<script type="text/javascript " src="assets/Jquery/jquery.js"></script>
+   		<script type="text/javascript " src="assets/Jquery/clipboard.min.js"></script>
+   		<script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
+   		<script type="text/javascript " src="assets/Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></scrip
+		<script type="text/javascript " src="assets/spop.js "></script>
+</html>
 </html>
