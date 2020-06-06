@@ -8285,6 +8285,10 @@ function sssOutput1() {
                 </font>
                 <font id="font1"   color="white" size="5">
                     <div id="UTAoutput"></div>
+				<font id="font1"   color="red" size="3">
+					 <br>You can save with the button below and
+					<br>Simply double click the listed result to copy!
+					</font>
                 </font>
                 </font>
                 <script>
@@ -8295,7 +8299,7 @@ function sssOutput1() {
                             var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
                             output.innerHTML = selectedtext
                         }
-                    });
+                    }, false)
                 </script>
             </section>
 
@@ -8309,15 +8313,10 @@ function sssOutput1() {
             border-style: solid;
             border-color: red;
         }
-		
+		a.utVar{
+		color: #ffffff
+		}
     </style>
-	<div name="HB" id="HB" class="HB">
-<h1 id="font1"  >
-
-        <font id="font1"   color="red" text-align="center" width="bold" size="5">Text Saver</font>
-		
-
-</h1>
 </div>
 </body>
 
@@ -8328,14 +8327,15 @@ function sssOutput1() {
 
     <br>
     <br>
-    <button class="button"   background="transparent" font="color:white;"  border-color="red" class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()">Save</button>
+    <button class="button"   background="transparent" font="color:white;"  border-color="red" class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()"><font>Save</font></button>
 </body>
 
 <body class="TextList" name="TextList" id=TextList max-width="420">
     <font id="font1"   color="white" size="5">
-        <ul id="list">
-            <li>example</li>
-        </ul>
+       <ul id="list" style="width:300px;height:400px;">
+            <li><a class="" href="">this link</a></li>
+			
+		</ul>
     </font>
 
 </body>
@@ -8345,14 +8345,38 @@ function sssOutput1() {
 <script>
 function save() {
 
-    var SN = document.getElementById('SN').value
-    listNode = document.getElementById('list'),
-        liNode = document.createElement("li"),
-        txtNode = document.createTextNode(SN);
-    liNode.appendChild(txtNode);
-    listNode.appendChild(liNode);
+    var SNV = document.getElementById('SN').value
+	 SN = document.getElementById('SN'),
+        listNode = document.getElementById('list'),
+		liNode = document.createElement("li"),
+		aNode = document.createElement("a"),
+        txtNode = document.createTextNode(SNV),
+		divNode = document.createElement("div"),
+		iNode = document.createElement("input");
+	iNode.setAttribute("value", SNV);
+	iNode.setAttribute("style", "position: absolute; z-index: -9999; opacity: 0;")
+	iNode.setAttribute("class", "linkToCopy");
+    listNode.appendChild(divNode);
+	divNode.appendChild(liNode)
+	liNode.appendChild(iNode);	
+	aNode.appendChild(txtNode);
+	aNode.utesetAttrib("value", SNV);
+	aNode.setAttribute("class", "utVar");
+	aNode.setAttribute("href", "https://g6nk.pro");
+	aNode.setAttribute("onclick", "javascript:cpyUT(); return false;");
+	liNode.appendChild(aNode);
+
 }
 </script>
+<script>
+	cpyUT = function(){
+  $('a.utVar').click(function() {
+    $(this).siblings('input.linkToCopy').select();
+     document.execCommand("copy");
+  });
+  }
+</script>
+
 </div>
 <div>
 </body>
