@@ -1,25 +1,337 @@
 <!DOCTYPE html>
-<HTML lang="en">
+<title>User Text Array</title>
+<div >
+<meta charset="UTF-8">
+        <font id="font1"   hide="false" color="red">
+<html lang="en"  style="background-color:black;min-width:420;max-width:420px;height:500px; align="center">
+<style>
+ .button {
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  color: transparent 20%;
+  border: 2px solid #ff0000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+	}
+	
+	
+	
+.button {
 
+  background: linear-gradient(
+
+    45deg,
+    #000 10%,
+    #500000 20%,
+    #c00000 30%,
+    #f00000 40%,
+    #ff0000 50%,
+    #f00000 60%,
+    #c00000 70%,
+    #500000 80%,
+    #000 90%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: black;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+  -webkit-text-fill-color: black;
+    -moz-text-fill-color: black;
+  -webkit-text-stroke: calc(0px + 3px) transparent;
+  -moz-text-stroke: calc(0px + 3px) transparent;
+  
+    -moz-animation: glow linear 1s infinite;
+  -webkit-animation: glow linear 1s infinite;
+  animation: glow linear 1s infinite;
+  -moz-animation: shine 1s linear infinite;
+  -webkit-animation: shine 1s linear infinite;
+  animation: shine 1s linear infinite;
+
+
+}
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow: 0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+}
+
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+  
+  @keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+  
+  
+      @-moz-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+    @-webkit-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+ 
+font {
+
+    -moz-animation: glow linear 1s infinite;
+  -webkit-animation: glow linear 1s infinite;
+  animation: glow linear 1s infinite;
+
+}
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow: 0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+}
+
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+  
+  @keyframes glow {
+  0% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  25% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  30% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  45% {
+    text-shadow: 0px 4px green, 0px 4px green;
+  }
+
+  60% {
+    text-shadow: 0px 1px blue, 0px 1px blue;
+  }
+
+  75% {
+    text-shadow:  0px -2px red, 0px -2px red;
+  }
+
+  80% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+
+  90% {
+    text-shadow: 0px 2px blue, 0px 2px blue;
+  }
+
+  100% {
+    text-shadow: 0px -3px red, 0px -3px red;
+  }
+  }
+ 
+ 
+ 
+ 
+</style>
 <head>
-    <title>Emoticon Library </title>
+<link rel="shortcut icon" type="image/x-icon" href="icon.png">
+
     <link href="assets/spop.css" rel="stylesheet">
-	<link rel="newWindow" url="assets/UTA.html">
-	<link rel="newWindow1" url="assets/SaveTexts.html">
-	<meta name="viewport" content="width=device-width, initial-scale=1, charset=" UTF-8 ">
-    <script type="text/javascript " src="jquery.min.js "></script>
-    <script type="text/javascript " src="particles.js "></script>
-    <script type="text/javascript " src="particles.min.js "></script>
-    <script type="text/javascript " src="Jquery/jquery.js "></script>
-    <script type="text/javascript " src="Jquery/clipboard.min.js "></script>
-    <script type="text/javascript " src="Jquery/ajax-libs-jquery/2.2.0/jquery.min.js "></script>
-    <script type="text/javascript " src="Jquery/ajax-libs-jquery/1.11.2/jquery.min.js "></script>
-	<script type="text/javascript " src="spop.js "></script>
-</head>
-
-<body>
-
+	<link rel="newWindow" url="UTA.html">
+	<meta name="description" content="Create Cool Fonts and Font Arrangements. Pop Out Windows For Various Tools For Ease of Access.">
+    <meta name="keywords" content="Font, Fonts, Lit, Cool, Cool Fonts, Lit Fonts, Lit Font Generator, G6NK, g6nk, gang, font gang, create, creative">
+    <meta name="author" content="G6NK">
+    <meta name="copyright" content="G6NK Productions">
+	<meta name="viewport" content="width=device-width" charset="UTF-8">
+		<script type="text/javascript" src="jquery.min.js"></script>
+   		 <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="particles.min.js"></script>
     <body>
+
         <style>
             /* ---- reset ---- */
             
@@ -51,7 +363,7 @@
                 position: fixed;
                 width: 100%;
                 height: 100%;
-                background-image: url("giphy.gif");
+                background-image: url(giphy.gif);
                 background-repeat: no-repeat;
                 background-size: 100%;
                 background-position: 50% 75%;
@@ -63,220 +375,516 @@
 
             <!-- particles.js container -->
             <div id="particles-js"></div>
-            <!-- particles.js lib online - https://github.com/VincentGarreau/particles.js -->
-            <script src="particles.js\particles.min.js"></script>
-            <!-- stats.js lib -->
+
+
 
         </body>
-        <form>
-            <style>
-                .form {
-                    border: 1px solid black;
-                    text-align: center;
-                    outline: none;
-                    min-width: 320;
-                    max-width: 350px;
-                }
-                
-                span {
-                    display: inline-block;
-                }
-            </style>
+</head>
+<body onload="myFunction()" style="margin:0;"  class="animate-bottom">
+<div id="loader"></div>
+<font id="font1"   text-align="center" color="white">
+<div id="loader2" background-image="url("assets/icons/G6emblem");>Hello!</div>
+</font>
+</body>
+<div>
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  background: black;
+  background-color: transparent;
+  left: auto;
+  top: auto;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 50%;
+  border-top: 3px solid red;
+  width: 150px;
+  height: 150px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#loader2 {
+  position: absolute;
+  opacity-max: 50%;
+  z-index:1;
 
-            </section>
+  background-image: url(icons/G6emblem.png);
+                  background-size: 100%;
+				  animation: none;
+  left: auto;
+  top: auto;
+  z-index: 3;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  border-size:90%;
+  boeder-width:10px;
+  border-top: 2px solid black;
+  width: 150px;
+  height: 150px;
+  }
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to"page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+.animate-bottom
+{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+/* Add animation to"page content" */
+.animate-bottom2 {
+  position: relative;
+  -webkit-animation-name: animatebottom2;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+.animate-bottom2
+{
+  position: relative;
+  -webkit-animation-name: animatebottom2;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ top:-100px; opacity:0 } 
+  to{ top:0; opacity:1 }
+}
+
+@-webkit-keyframes animatebottom2 {
+  from { top:-100px; opacity:0 } 
+  to { top:0px; opacity:1 }
+}
+
+@keyframes animatebottom2 { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+</style>
+
+
+
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 5800);
+    }
+    function showPage() {
+  document.getElementById("loader").style.display ="none";
+    document.getElementById("loader2").style.display ="none";
+  document.getElementById("main").style.display ="block";
+                  document.getElementById("lfgascii").style.display ="block";
+}
+    </script>
+<body>
+
+    <body>
+
+<div style="display:none;" class="animate-bottom2" id="main">
+
+
+<br>
+
+
+
+
+<br>
+
+<body>
+	<div>
+	<div>
+	<font id="font1"   hide="false" color="red">
+		<button class="button" onclick="location.reload(true)">
+		Reset App
+		</a>
+		</font>
+	</div>
+	<div>
+	<font id="font1"   hide="false" color="red">
+<button class="button" id="oP1" onclick="fadeOut1(el)">Particles Off</a>
+</font>
+</div>
+<div>
+<font id="font1"   hide="false" color="red">
+<button class="button" id="oP2"  onclick="fadeIn1(el)">particles On</a>
+</font>
+</div>
+
+
+<script>
+var el = document.getElementById("particles-js");
+
+function fadeOut1(el) {
+  var tick = function(){
+
+    el.style.opacity = el.style.opacity - 0.01;
+
+    if (el.style.opacity >= 0.01) {
+      setTimeout(tick, 1);
+    }
+  };
+
+  tick();
+
+}
+
+function fadeIn1(el) {
+var el = document.getElementById("particles-js");
+  var tick = function(){
+
+    el.style.opacity = +el.style.opacity + 0.01;
+
+    if (+el.style.opacity <= 0.99) {
+      setTimeout(tick, 1);
+    }
+  };
+
+  tick();
+
+  }
+
+
+  </script>
+</div>
+	<div>
+	    <div>    
+		<button   class="button"  onclick="EW()">
+			LF Generator Pop-Out
+		</a>
+			</font>
+
+
+			<script>
+				function EW() {
+					var myWindow1 = window.open("../index.html","MsgWindow2","width=420,height=500%","alwaysOnTop=100","setAlwaysOnTop=true");
+				}
+
+            </script>
+	</div>
+
+<script>
+function fade(element) {
+    var op = 1;  // initial opacity
+    var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            element.style.display = 'none';
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.1;
+    }, 50);
+}
+</script>
+
+</body>
+<body id="lfgascii" class="animate-bottom2">
+
+    <br>
+    <font font-size="10" hide="false" color="red" ;>█░░ █ ▀█▀   █▀▀ █▀█ █▄░█ ▀█▀</font>
+    <br>
+    <font font-size="10" hide="false" color="white">█▄▄ █ ░█░   █▀░ █▄█ █░▀█ ░█░</font><br>
+    <br>
+    <font font-size="10" hide="false" color="red">█▀▀ █▀▀ █▄░█ █▀▀ █▀█ ▄▀█ ▀█▀ █▀█ █▀█</font>
+	<br>
+    <font font-size="10" hide="false" color="white">█▄█ ██▄ █░▀█ ██▄ █▀▄ █▀█ ░█░ █▄█ █▀▄</font>
+	<font color="red"><p>(Some Browsers may not support Certain Fonts Or Features)</p>
+    </body>
+	
+	
+	        <script>
+            particlesJS("particles-js", {
+              "particles": {
+                  "number": {
+                      "value": 80,
+                      "density": {
+                          "enable": true,
+                          "value_area": 800
+                        }
+                    },
+                  "color": {
+                      "value":"#ff9191"
+                    },
+                  "shape": {
+                      "type":"circle",
+                      "stroke": {
+                          "width": 1,
+                          "color":"#000000"
+                        },
+                      "polygon": {
+                          "nb_sides": 3
+                        },
+                      "image": {
+                          "src":"img/github.svg",
+                          "width": 100,
+                          "height": 100
+                        }
+                    },
+                  "opacity": {
+                      "value": 0.5006853643922415,
+                      "random": true,
+                      "anim": {
+                          "enable": false,
+                          "speed": 1,
+                          "opacity_min": 0.1,
+                          "sync": false
+                        }
+                    },
+                  "size": {
+                      "value": 3.9458004845442964,
+                      "random": true,
+                      "anim": {
+                          "enable": true,
+                          "speed": 300,
+                          "size_min": 25.572790550853885,
+                          "sync": false
+                        }
+                    },
+                  "line_linked": {
+                      "enable": true,
+                      "distance": 150,
+                      "color":"#ffffff",
+                      "opacity": 0.4,
+                      "width": 1
+                    },
+                  "move": {
+                      "enable": true,
+                      "speed": 10.001416867389551,
+                      "direction":"none",
+                      "random": true,
+                      "straight": false,
+                      "out_mode":"bounce",
+                      "bounce": false,
+                      "attract": {
+                          "enable": false,
+                          "rotateX": 9501.346024020075,
+                          "rotateY": 9334.655742896915
+                        }
+                    }
+                },
+              "interactivity": {
+                  "detect_on":"window",
+                  "events": {
+                      "onhover": {
+                          "enable": true,
+                          "mode":"grab"
+                        },
+                      "onclick": {
+                          "enable": true,
+                          "mode":"bubble"
+                        },
+                      "resize": true
+                    },
+                  "modes": {
+                      "grab": {
+                          "distance": 262.7388535031849,
+                          "line_linked": {
+                              "opacity": 1
+                            }
+                        },
+                      "bubble": {
+                          "distance": 304.05405405405384,
+                          "size": 19.904458598726126,
+                          "duration": 0.39808917197452254,
+                          "opacity": 0.05067567567567564,
+                          "speed": 3
+                        },
+                      "repulse": {
+                          "distance": 200,
+                          "duration": 0.4
+                        },
+                      "push": {
+                          "particles_nb": 4
+                        },
+                      "remove": {
+                          "particles_nb": 2
+                        }
+                    }
+                },
+              "retina_detect": true
+            });
+        </script>
+	
             <section class="seccpyl">
 			<div name="HB" id="HB" class="HB">
-                <font  color="red" width="bold" size="5">User Emoticon Array!
+                <font id="font1"    color="red" width="bold" size="5">Emoticon Array!
                     <br>
 			</div>
-                    <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" id="ETAquote" cols="50" rows="5"></textarea>
+                    <textarea class="SN" id="SN" name="SN" placeholder="Create Unique font combinations here! When you select a text it will preview below! Press save to add your array to a custom list!" cols="50" rows="5"></textarea>
 
 
                     <br> Your selection preview will show here!
                     <br>
                 </font>
-                <font color="white" size="5">
-                    <div id="ETAoutput"></div>
+                <font id="font1"   color="white" size="5">
+                    <div id="UTAoutput"></div>
+				<font id="font1"   color="red" size="3">
+					 <br>You can save with the button below and
+					<br>Simply double click the listed result to copy!
+					</font>
                 </font>
                 </font>
-
+                <script>
+                    var quotearea = document.getElementById('SN')
+                    var output = document.getElementById('UTAoutput')
+                    quotearea.addEventListener('mouseup', function() {
+                        if (this.selectionStart != this.selectionEnd) { // check the user has selected some text inside field
+                            var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
+                            output.innerHTML = selectedtext
+                        }
+                    }, false)
+                </script>
             </section>
-            </button>
-        </form>
 
-        <script>
-            particlesJS("particles-js", {
-                "particles": {
-                    "number": {
-                        "value": 80,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": "#ff9191"
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 1,
-                            "color": "#000000"
-                        },
-                        "polygon": {
-                            "nb_sides": 3
-                        },
-                        "image": {
-                            "src": "img/github.svg",
-                            "width": 100,
-                            "height": 100
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.5006853643922415,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3.9458004845442964,
-                        "random": true,
-                        "anim": {
-                            "enable": true,
-                            "speed": 300,
-                            "size_min": 25.572790550853885,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#ffffff",
-                        "opacity": 0.4,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 10.001416867389551,
-                        "direction": "none",
-                        "random": true,
-                        "straight": false,
-                        "out_mode": "bounce",
-                        "bounce": false,
-                        "attract": {
-                            "enable": false,
-                            "rotateX": 9501.346024020075,
-                            "rotateY": 9334.655742896915
-                        }
-                    }
-                },
-                "interactivity": {
-                    "detect_on": "window",
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "grab"
-                        },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "bubble"
-                        },
-                        "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 262.7388535031849,
-                            "line_linked": {
-                                "opacity": 1
-                            }
-                        },
-                        "bubble": {
-                            "distance": 304.05405405405384,
-                            "size": 19.904458598726126,
-                            "duration": 0.39808917197452254,
-                            "opacity": 0.05067567567567564,
-                            "speed": 3
-                        },
-                        "repulse": {
-                            "distance": 200,
-                            "duration": 0.4
-                        },
-                        "push": {
-                            "particles_nb": 4
-                        },
-                        "remove": {
-                            "particles_nb": 2
-                        }
-                    }
-                },
-                "retina_detect": true
-            });
-        </script>
-    </body>
+        
 
-    <h1>
-        <div name="HB" id="HB" class="HB">
-            <font color="red" width="bold" size="5">Emoticon Array Saver</font>
-        </div>
-        <style>
-            .HB {
-                width: 420px;
-                text-align: center;
-                border-width: 2px;
-                border-style: solid;
-                border-color: red;
-            }
-        </style>
-    </h1>
-</body>
+    <style>
+        .HB {
+            width: 420px;
+            text-align: left;
+            border-width: 2px;
+            border-style: solid;
+            border-color: red;
+        }
+		a.utVar{
+		color: #ffffff
+		}
+    </style>
+
+
 
 <body position="absolute" z-index="2">
 
-    <body class="Content" id="Content" name="Content">
+<body class="Content" id="Content" name="Content" max-width="420">
 
-        <button class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()">Save Your Text</button>
-        <br>
-        <br>
-        
-    </body>
 
-    <body class="TextList" name="TextList" id=TextList>
-        <font color="white" size="5">
-            <ul id="list">
-                <li>example</li>
-            </ul>
-        </font>
+    <br>
+    <br>
+    <button class="button"   background="transparent" font="color:white;"  border-color="red" class="SNbutton" name="SNbutton" id="SNbutton" onclick="save()"><font>Save</font></button>
+</body>
 
-    </body>
+<body class="TextList" name="TextList" id=TextList max-width="420">
+    <font id="font1"   color="white" size="5">
+       <ul id="list" style="width:300px;height:400px;">
+            <li>example</li>
+		</ul>
+    </font>
+</body>
+</body>
 
 </body>
 
 <script>
-    var quotearea = document.getElementById('ETAquote')
-    var output = document.getElementById('ETAoutput')
-    quotearea.addEventListener('mouseup', function() {
-        if (this.selectionStart != this.selectionEnd) { // check the user has selected some text inside field
-            var selectedtext = this.value.substring(this.selectionStart, this.selectionEnd)
-            output.innerHTML = selectedtext
-        }
-    }, false)
-</script>
+function save() {
 
-<script>
-    function save() {
-
-        var SN = document.getElementById('SN').value
+    var SNV = document.getElementById('SN').value
+	 SN = document.getElementById('SN'),
         listNode = document.getElementById('list'),
-            liNode = document.createElement("li"),
-            txtNode = document.createTextNode(SN);
-        liNode.appendChild(txtNode);
-        listNode.appendChild(liNode);
-    }
+		liNode = document.createElement("li"),
+		aNode = document.createElement("a"),
+        txtNode = document.createTextNode(SNV),
+		divNode = document.createElement("div"),
+		iNode = document.createElement("input");
+	iNode.setAttribute("value", SNV);
+	iNode.setAttribute("style", "position: absolute; z-index: -9999; opacity: 0;")
+	iNode.setAttribute("class", "linkToCopy");
+    listNode.appendChild(divNode);
+	divNode.appendChild(liNode)
+	liNode.appendChild(iNode);	
+	aNode.appendChild(txtNode);
+	aNode.setAttribute("value", SNV);
+	aNode.setAttribute("class", "utVar");
+	aNode.setAttribute("href", "https://g6nk.pro");
+	aNode.setAttribute("onclick", "javascript:cpyUT(); return false;");
+	liNode.appendChild(aNode);
+
+}
+</script>
+<script>
+	cpyUT = function(){
+  $('a.utVar').click(function() {
+    $(this).siblings('input.linkToCopy').select();
+     document.execCommand("copy");
+  });
+  }
 </script>
 
+</div>
+</body>
+<div  class="animate-bottom">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h3>
+        <font id="font1"   color="white" size="5"><b><i>𝕳𝖔𝖕𝖊 𝕿𝖍𝖎𝖘 𝕳𝖊𝖑𝖕𝖘!</i></b></font>
+    </h3>
+</body>
+ 
 
-</HTML>
+<br>
+<br>
+<footer position="absolute" z-index="9998" width="100%" height="10%" border-width="1%" background-color="#000000" opacity="100%">
+
+
+    <body position="absolute" z-index="9999">
+        <div>
+            <font id="font1"   color="red" font-size="8px" >
+                Copyright &copy; G6NK Production 01/01/2020
+            </font>
+        </div>
+</body>
+</footer>
+</div>
+</div>
+
+	   	<script type="text/javascript " src="jquery.min.js"></script>
+   		<script type="text/javascript " src="Jquery/jquery.js"></script>
+   		<script type="text/javascript " src="Jquery/clipboard.min.js"></script>
+   		<script type="text/javascript " src="Jquery/ajax-libs-jquery/2.2.0/jquery.min.js"></script>
+		<script type="text/javascript " src="Jquery/ajax-libs-jquery/1.11.2/jquery.min.js"></script>
+
+</html>
