@@ -4,7 +4,7 @@ added various features and optimizations 05/20/2020
  
  We Will Never Charge You For Services.
  
- If You find This Collection Being Distributed by A Third Party We Cannot Insure 
+ If You find This Collection Being Distributed by A Third Party We Cannot Ensure 
 That it Will be Safe to Use or Download. 
 
 #!--------------------------------View Raw File---------------------------------!
